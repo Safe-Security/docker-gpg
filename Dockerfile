@@ -1,6 +1,6 @@
-FROM ubuntu:20.04
+FROM alpine:3.15
 WORKDIR /home
-RUN apt-get install gnupg2
+RUN apk add --no-cache gnupg
 EXPOSE 5000
 ENTRYPOINT [ "gpg" ]
 CMD [ "--version" ]
