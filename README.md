@@ -1,6 +1,6 @@
 # GnuPG Docker Image
 
-A dockerized image to run `gnupg` commands based on Ubuntu:20.04
+A dockerized image to run `gnupg` commands based on Alpine:3.15
 
 ## Usage
 
